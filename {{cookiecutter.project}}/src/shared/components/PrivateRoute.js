@@ -23,7 +23,8 @@ const PrivateRoute = ({ component: Component, ...rest }) => {
 
   if (!hasPermission(requiredPermission, permissions)) {
     Alert.run(Alert.ERROR, "Permissão negada!", "Você não pode realizar essa ação.");
-    return <Redirect to={{ pathname: "/profile", state: { user }}} />;
+    const path = { pathname: "/profile", state: { user }}
+    return <Redirect to={path} />;
   }
 
   if (location.key)
