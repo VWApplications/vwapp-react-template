@@ -1,0 +1,6 @@
+{
+    "project_name": "NomeDoProjeto",
+    "dev_url": "http://0.0.0.0:8000/graphql",
+    "homolog_url": "http://0.0.0.0:8000/graphql",
+    "production_url": "http://0.0.0.0:8000/graphql"
+}
