@@ -1,0 +1,3 @@
+## {{cookiecutter.project}}
+
+{{cookiecutter.description}}
